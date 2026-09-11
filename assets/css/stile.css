@@ -5,8 +5,8 @@ body {
     font-size: 1.4rem;
     line-height: 1.5;
     padding: 15px;
-    background-image: url('../img/back.jpeg');
-    background-position: center center;
+    background-image: url('../img/green.jpeg');
+    background-size: contain;
 }
     @media screen and (min-width:500px) {
         html {
@@ -370,6 +370,7 @@ footer a {
         display:flex;
         flex-direction: row;
         justify-content: space-around;
+        align-items: center;
   }
    
  .conteiner {
